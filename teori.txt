@@ -1,0 +1,32 @@
+Matrix ialah struktur penyimpanan data pada memori utama yang individu elemennya diacu dengan memakai 2 buah indeks 
+yang sering dikonotasikan dengan baris dan kolom.
+Sebenarnya matriks merupakan array/kolom, sehingga konsep umum untuk array dapat berlaku juga untuk matriks, yaitu:
+    - Kumpulan elemen memiliki tipe yang sama. 
+    Tipe elemen pada matriks bisa berupa tipe dasar integer, string, real, char, dan boolean, atau bisa juga berupa 
+    tipe terstruktur seperti record.
+    -Semua elemen data bisa diakses dengan langsung jika indeks baris dan kolom diketahui, yang mana indeks ini 
+    menyatakan posisi relatif didalam kumpulannya.
+    -Struktur datanya statik, maksudnya ialah jumlah elemennya sudah dideklarasi dahulu pada bagian kamus dan tak dapat 
+    diganti selama program dijalankan.
+    
+
+Suatu array di Java dapat dibentuk dengan mendefinisikan array dua dimensi. Kemudian kita dapat mengisi setiap elemen 
+secara manual dengan mengakses setiap elemennya. 
+Berikut adalah contohnya:
+int matrix[][] = new int[2][2];
+matrix[0][0] = 5;
+matrix[0][1] = 0;
+matrix[1][0] = 2;
+matrix[1][1] = 6;
+
+int matrix[][] = new int[3][3];
+matrix[0][0] = 5;
+matrix[0][1] = 0;
+matrix[0][2] = 8;
+matrix[1][0] = 2;
+matrix[1][1] = 6;
+matrix[1][2] = 7;
+matrix[2][0] = 2;
+matrix[2][1] = 6;
+matrix[2][2] = 5;
+
